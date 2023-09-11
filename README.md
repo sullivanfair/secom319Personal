@@ -1,2 +1,2 @@
 # secom319Personal
-Personal repository for code written in Web Development - Com S 319
+Personal repository for code written in Construction of User Interfaces - Com S 319
