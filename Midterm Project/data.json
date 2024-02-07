@@ -1,0 +1,130 @@
+{
+    "movies" : [
+        {
+            "name":"Mission: Impossible - Dead Reckoning Part One",
+            "description":"Ethan Hunt and his IMF team must track down a dangerous weapon before it falls into the wrong hands.",
+            "rating":5,
+            "genre":"action",
+            "imageName":"missionimpossible.jpg"
+        },
+        {
+            "name":"John Wick",
+            "description":"An ex-hitman comes out of retirement to track down the gangsters who killed his dog and stole his car.",
+            "rating":5,
+            "genre":"action",
+            "imageName":"johnwick.jpg"
+        },
+        {
+            "name":"Airplane!",
+            "description":"After the crew becomes sick with food poisoning, a neurotic ex-fighter pilot must land a commercial airplane full of passengers safely.",
+            "rating":5,
+            "genre":"comedy",
+            "imageName":"airplane.jpg"
+        },
+        {
+            "name":"Anchorman: The Legend of Ron Burgundy",
+            "description":"In the 1970s, an anchorman's stint as San Diego's top-rated newsreader is challenged when an ambitious newswoman becomes his co-anchor.",
+            "rating":5,
+            "genre":"comedy",
+            "imageName":"anchorman.jpg"
+        },
+        {
+            "name":"Austin Powers: International Man of Mystery",
+            "description":"A world-class playboy and part-time secret agent from the 1960s emerges after thirty years in a cryogenic state to battle with his nemesis Dr. Evil.",
+            "rating":5,
+            "genre":"comedy",
+            "imageName":"austinpowers.jpg"
+        },
+        {
+            "name":"The Big Lebowski",
+            "description":"Jeff \"The Dude\" Lebowski, mistaken for a millionaire of the same name, seeks restitution for his ruined rug and enlists his bowling buddies to help get it.",
+            "rating":5,
+            "genre":"comedy",
+            "imageName":"lebowski.jpg"
+        },
+        {
+            "name":"Caddyshack",
+            "description":"An exclusive golf course has to deal with a brash new member and a destructive dancing gopher.",
+            "rating":5,
+            "genre":"comedy",
+            "imageName":"caddyshack.jpg"
+        },
+        {
+            "name":"Ferris Bueller's Day Off",
+            "description":"A popular high school student, admired by his peers, decides to take a day off from school and goes to extreme lengths to pull it off.",
+            "rating":5,
+            "genre":"comedy",
+            "imageName":"bueller.jpg"
+        },
+        {
+            "name":"Alien",
+            "description":"The crew of a commercial spacecraft encounters a deadly lifeform after investigating an unknown transmission.",
+            "rating":5,
+            "genre":"horror",
+            "imageName":"alien.jpg"
+        },
+        {
+            "name":"A Quiet Place",
+            "description":"A family struggles for survival in a world where most humans have been killed by blind but noise-sensitive creatures.",
+            "rating":5,
+            "genre":"horror",
+            "imageName":"quietplace.jpg"
+        },
+        {
+            "name":"Jaws",
+            "description":"A killer shark unleashes chaos on a beach community off Cape Cod, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down.",
+            "rating":5,
+            "genre":"horror",
+            "imageName":"jaws.jpg"
+        },
+        {
+            "name":"Halloween",
+            "description":"Fifteen years after murdering his sister on Halloween, 1963, Michael Myers escapes from a mental hospital and returns to Haddonfield, Illinois to kill again.",
+            "rating":5,
+            "genre":"horror",
+            "imageName":"halloween.jpg"
+        },
+        {
+            "name":"A Nightmare on Elm Street",
+            "description":"Teenager Nancy Thompson must uncover the dark truth after she and her friends become targets of the spirit of a serial killer in their dreams.",
+            "rating":5,
+            "genre":"horror",
+            "imageName":"elmstreet.jpg"
+        },
+        {
+            "name":"The Evil Dead",
+            "description":"Five friends travel to a cabin in the woods, where they unknowingly release flesh-possessing demons.",
+            "rating":5,
+            "genre":"horror",
+            "imageName":"evildead.jpg"
+        },
+        {
+            "name":"Fast and Furious",
+            "description":"Los Angeles police officer Brian O'Conner must decide where his loyalty really lies when he becomes enamored with the street racing world.",
+            "rating":5,
+            "genre":"action",
+            "imageName":"fastandfurious.jpg"
+        },
+        {
+            "name":"Mr. and Mrs. Smith",
+            "description":"A bored married couple is surprised to learn that they are both assassins hired by competing agencies to kill each other.",
+            "rating":5,
+            "genre":"action",
+            "imageName":"mrandmrssmith.jpg"
+        },
+        {
+            "name":"Now You See Me",
+            "description":"An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances.",
+            "rating":5,
+            "genre":"action",
+            "imageName":"nowyouseeme.jpg"
+        },
+        {
+            "name":"Batman: The Dark Knight",
+            "description":"Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+            "rating":5,
+            "genre":"action",
+            "imageName":"batman.jpg"
+        }
+    ]
+}

@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="../assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Comedy Movies</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
+
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+
+      .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+      }
+    </style>
+
+    
+  </head>
+  <body>
+ 
+    <header data-bs-theme="dark">
+      <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Comedy Movies</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample01">
+            <ul class="navbar-nav me-auto mb-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Genre</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="comedyMovies.html">Comedy</a></li>
+                  <li><a class="dropdown-item" href="actionMovies.html">Action</a></li>
+                  <li><a class="dropdown-item" href="horrorMovies.html">Horror</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+<main>
+
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        
+        <div class="col">
+          <div class="card shadow-sm">
+            <div id = "movie1" style="height: 391px;">
+              <div id = "poster-container">
+                <img id = "poster" src = "" width="150" height="225"></img>
+              </div>
+            <div class="card-body">
+                <p class="card-text"></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <h4>My Rating:</h4>
+                  <div class="btn-group">
+                    <div class="rate">
+                      <input type="radio" id="star5" name="rate" value="5" />
+                      <label for="star5" title="text">5 stars</label>
+                      <input type="radio" id="star4" name="rate" value="4" />
+                      <label for="star4" title="text">4 stars</label>
+                      <input type="radio" id="star3" name="rate" value="3" />
+                      <label for="star3" title="text">3 stars</label>
+                      <input type="radio" id="star2" name="rate" value="2" />
+                      <label for="star2" title="text">2 stars</label>
+                      <input type="radio" id="star1" name="rate" value="1" />
+                      <label for="star1" title="text">1 star</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div id = "movie2" style="height: 391px;">
+              <div id = "poster-container">
+                <img id = "poster" src = "" width="150" height="225"></img>
+              </div>
+            <div class="card-body">
+                <p class="card-text"></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <h4>My Rating:</h4>
+                  <div class="btn-group">
+                    <div class="rate1">
+                      <input type="radio" id="star51" name="rate1" value="5" />
+                      <label for="star51" title="text">5 stars</label>
+                      <input type="radio" id="star41" name="rate1" value="4" />
+                      <label for="star41" title="text">4 stars</label>
+                      <input type="radio" id="star31" name="rate1" value="3" />
+                      <label for="star31" title="text">3 stars</label>
+                      <input type="radio" id="star21" name="rate1" value="2" />
+                      <label for="star21" title="text">2 stars</label>
+                      <input type="radio" id="star11" name="rate1" value="1" />
+                      <label for="star11" title="text">1 star</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div id = "movie3" style="height: 391px;">
+              <div id = "poster-container">
+                <img id = "poster" src = "" width="150" height="225"></img>
+              </div>
+            <div class="card-body">
+                <p class="card-text"></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <h4>My Rating:</h4>
+                  <div class="btn-group">
+                    <div class="rate2">
+                      <input type="radio" id="star52" name="rate2" value="5" />
+                      <label for="star52" title="text">5 stars</label>
+                      <input type="radio" id="star42" name="rate2" value="4" />
+                      <label for="star42" title="text">4 stars</label>
+                      <input type="radio" id="star32" name="rate2" value="3" />
+                      <label for="star32" title="text">3 stars</label>
+                      <input type="radio" id="star22" name="rate2" value="2" />
+                      <label for="star22" title="text">2 stars</label>
+                      <input type="radio" id="star12" name="rate2" value="1" />
+                      <label for="star12" title="text">1 star</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div id = "movie4" style="height: 391px;">
+              <div id = "poster-container">
+                <img id = "poster" src = "" width="150" height="225"></img>
+              </div>
+            <div class="card-body">
+                <p class="card-text"></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <h4>My Rating:</h4>
+                  <div class="btn-group">
+                    <div class="rate3">
+                      <input type="radio" id="star53" name="rate3" value="5" />
+                      <label for="star53" title="text">5 stars</label>
+                      <input type="radio" id="star43" name="rate3" value="4" />
+                      <label for="star43" title="text">4 stars</label>
+                      <input type="radio" id="star33" name="rate3" value="3" />
+                      <label for="star33" title="text">3 stars</label>
+                      <input type="radio" id="star23" name="rate3" value="2" />
+                      <label for="star23" title="text">2 stars</label>
+                      <input type="radio" id="star13" name="rate3" value="1" />
+                      <label for="star13" title="text">1 star</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div id = "movie5" style="height: 391px;">
+              <div id = "poster-container">
+                <img id = "poster" src = "" width="150" height="225"></img>
+              </div>
+            <div class="card-body">
+                <p class="card-text"></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <h4>My Rating:</h4>
+                  <div class="btn-group">
+                    <div class="rate4">
+                      <input type="radio" id="star54" name="rate4" value="5" />
+                      <label for="star54" title="text">5 stars</label>
+                      <input type="radio" id="star44" name="rate4" value="4" />
+                      <label for="star44" title="text">4 stars</label>
+                      <input type="radio" id="star34" name="rate4" value="3" />
+                      <label for="star34" title="text">3 stars</label>
+                      <input type="radio" id="star24" name="rate4" value="2" />
+                      <label for="star24" title="text">2 stars</label>
+                      <input type="radio" id="star14" name="rate4" value="1" />
+                      <label for="star14" title="text">1 star</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div id = "movie6" style="height: 391px;">
+              <div id = "poster-container">
+                <img id = "poster" src = "" width="150" height="225"></img>
+              </div>
+            <div class="card-body">
+                <p class="card-text"></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <h4>My Rating:</h4>
+                  <div class="btn-group">
+                    <div class="rate5">
+                      <input type="radio" id="star55" name="rate5" value="5" />
+                      <label for="star55" title="text">5 stars</label>
+                      <input type="radio" id="star45" name="rate5" value="4" />
+                      <label for="star45" title="text">4 stars</label>
+                      <input type="radio" id="star35" name="rate5" value="3" />
+                      <label for="star35" title="text">3 stars</label>
+                      <input type="radio" id="star25" name="rate5" value="2" />
+                      <label for="star25" title="text">2 stars</label>
+                      <input type="radio" id="star15" name="rate5" value="1" />
+                      <label for="star15" title="text">1 star</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+<script type = "module" src = "comedyMovies.js"></script>
+
+    </body>
+</html>
